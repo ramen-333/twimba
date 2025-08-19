@@ -116,6 +116,7 @@ button{
     width: 207px;
     font-size: 14px;
     line-height: 20px;
+    overflow-wrap: break-word;
 }
 
 /* images */
@@ -129,4 +130,17 @@ button{
 /* utility */
 .hidden{
     display: none;
+}
+
+.interact-btn {
+    transition: transform 0.1s ease;
+}
+
+.interact-btn:hover {
+    transform: scale(.95);
+    opacity: 0.8;
+}
+
+.interact-btn:active {
+    transform: scale(1.05);
 }
